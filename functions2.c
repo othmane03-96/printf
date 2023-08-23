@@ -1,9 +1,9 @@
 #include "main.h"
 
-/****************** PRINT POINTER ******************/
+/****************** PRINTED POINTER ******************/
 /**
- * print_pointer - Prints the value of a pointer variable
- * @types: List a of arguments
+ * print_pointer - Displays the value of a pointer variable.
+ * @types: Array of arguments.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
