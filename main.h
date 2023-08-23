@@ -4,8 +4,6 @@
 #include <stdio.h>
 #include <unistd.h>
 
-
-
 #define UNUSED(x) (void)(x)
 #define BUFF_SIZE 1024
 
@@ -21,10 +19,10 @@
 #define S_SHORT 1
 
 /**
- * struct of fmt - Struct op
+ * struct fmt - Struct op
  *
- * @fmt:  format.
- * @fn: Association function.
+ * @fmt: The format.
+ * @fn: The function associated.
  */
 struct fmt
 {
@@ -34,7 +32,7 @@ struct fmt
 
 
 /**
- * typedef struct of fmt fmt_t - Struct op
+ * typedef struct fmt fmt_t - Struct op
  *
  * @fmt: The format.
  * @fm_t: The function associated.
@@ -116,6 +114,5 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
-
-
 #endif /* MAIN_H */
+
